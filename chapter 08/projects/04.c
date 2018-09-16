@@ -4,7 +4,6 @@ Modify the reverse.c program of Section 8.1 to use the expression
 **********************************************************************************/
 
 #include <stdio.h>
-#include <ctype.h>
 
 #define N 10
 #define ARRAY_LENGTH (int)(sizeof(a)/sizeof(a[0]))
