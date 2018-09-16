@@ -22,8 +22,6 @@ int main()
     for(i = N - 1; i >= 0; i--)
         printf("%d ", a[i]);
 
-    //34 82 49 102 7 94 23 11 50 31
-
     printf("\n");
     return 0;
 }
