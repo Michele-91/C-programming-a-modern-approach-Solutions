@@ -1,6 +1,7 @@
-/* Write a C program that accepts an employee's ID,
-total worked hours of a month and the amount he received per hour.
-Print the employee's ID and salary (with two decimal places) of a particular month   */
+/*******************************************************************************************************
+Write a program the computes the volume of a sphere with a 10-meter-radius, using the formula v = 4/3πr3.
+Write the fraction 4/3 as 4.0f / 3.0f.  
+********************************************************************************************************/
 
 #include <stdio.h>
 
