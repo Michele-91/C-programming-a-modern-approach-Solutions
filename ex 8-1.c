@@ -5,11 +5,8 @@ Modify the repdigit.c program of Section 8.1 so that it shows which digits (if a
 #include <stdio.h>
 #include <stdbool.h>
 
-
-
 int main()
 {
-
     bool digit_seen[10] = {false};
     bool digit_rep[10] = {false};
 
