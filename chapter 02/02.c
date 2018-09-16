@@ -6,12 +6,9 @@ Write the fraction 4/3 as 4.0f / 3.0f.
 #include <stdio.h>
 
 
-
 int main()
 {
-    int radius;
-    printf("\nEnter radius of the sphere: ");
-    scanf("%d", &radius);
+    int radius = 10;
     int radius_squared = radius * radius * radius;
     printf("Radius: %d meters\n", radius);
 
