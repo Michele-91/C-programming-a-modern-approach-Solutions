@@ -1,5 +1,7 @@
-/* Write a program that asks the user to enter a dollars-and-cents amout, then displays the amount
-with 5% tax added   */
+/*********************************************************************************************
+Write a program that asks the user to enter a dollars-and-cents amout, then displays the amount
+with 5% tax added   
+***********************************************************************************************/
 
 #include <stdio.h>
 
