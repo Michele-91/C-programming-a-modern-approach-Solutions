@@ -1,10 +1,8 @@
-/* Write a C program that accepts an employee's ID,
-total worked hours of a month and the amount he received per hour.
-Print the employee's ID and salary (with two decimal places) of a particular month   */
+/********************************************************************************************************
+Modify the program of Programming Project 2 so that it prompts the user to enter the radius of the sphere 
+*********************************************************************************************************/
 
 #include <stdio.h>
-
-
 
 int main()
 {
