@@ -1,0 +1,19 @@
+/***********************************************************************************
+Write a program uses that uses printf to display the following picture on the screen
+************************************************************************************/
+
+
+#include <stdio.h>
+
+
+
+int main()
+{
+    printf("       *\n");
+    printf("      *\n");
+    printf("     *\n");
+    printf("*   *\n");
+    printf(" * *\n");
+    printf("  *\n");
+    return(0);
+}
