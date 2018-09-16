@@ -1,4 +1,6 @@
-
+/*
+Modify the repdigit.c program of Section 8.1 so that it shows which digits (if any) were repeated
+*/
 
 #include <stdio.h>
 #include <stdbool.h>
