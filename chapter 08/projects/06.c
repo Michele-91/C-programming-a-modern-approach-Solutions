@@ -7,7 +7,6 @@ certain letters, and then append 10 or so exclamation marks.
 ****************************************************************************************/
 
 #include <stdio.h>
-#include <stdbool.h>
 #include <ctype.h>
 
 #define MAX ((int)(sizeof(m) / sizeof(m[0])))
