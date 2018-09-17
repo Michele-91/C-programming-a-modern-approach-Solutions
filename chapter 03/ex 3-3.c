@@ -1,4 +1,6 @@
-/* Write a program that breaks down an ISBN entered by the user */
+/* **********************************************************
+Write a program that breaks down an ISBN entered by the user 
+**************************************************************/
 
 #include <stdio.h>
 
