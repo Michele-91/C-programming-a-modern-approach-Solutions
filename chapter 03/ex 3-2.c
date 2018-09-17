@@ -1,5 +1,8 @@
-/* Write a program that formats product information entered by the user. A session with the program
-should look like this: */
+/************************************************************************************************** 
+Write a program that formats product information entered by the user. The item number and date 
+should be left justified; the unit price should be right justified. Allow dollar amounts up to
+$9999.99. Hint: use tabs to line up the columns
+**************************************************************************************************/
 
 #include <stdio.h>
 
