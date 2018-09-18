@@ -10,7 +10,7 @@ int main()
 
     digit_five = decimal % 8;
     digit_four = (decimal / 8) % 8;
-    digit_three = ((decimal / 8) / 8) % 8;                                  //PRIMO MODO
+    digit_three = ((decimal / 8) / 8) % 8;                                  //1ST METHOD
     digit_two = (((decimal / 8) / 8) / 8) % 8;
     digit_one = ((((decimal / 8) / 8) / 8) / 8) % 8;
 
@@ -19,11 +19,11 @@ int main()
 
    /* digit_five = decimal % 8; decimal /= 8;
     digit_four = decimal % 8; decimal /= 8;
-    digit_three = decimal % 8; decimal /= 8;                                    SECONDO MODO
+    digit_three = decimal % 8; decimal /= 8;                                   //2ND METHOD
     digit_two = decimal % 8; decimal /= 8;
     digit_one = decimal % 8; decimal /= 8;
     printf("In octal, your number is %1d%1d%1d%1d%1d\n",
-           digit_one, digit_two, digit_three, digit_four, digit_five);/*
+           digit_one, digit_two, digit_three, digit_four, digit_five);*/
 
     return 0;
 }
