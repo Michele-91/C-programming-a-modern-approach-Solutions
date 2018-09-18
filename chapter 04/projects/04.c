@@ -1,4 +1,7 @@
-/* Extend the program in Programming Project 1 (chapter 4) to handle three-digit numbers  */
+/********************************************************************************************
+Write a program that reads an integer entered by the user and displays it in octal (base 8).
+The output should be displayed using five digits, even if fewer digits are sufficient
+*********************************************************************************************/
 
 #include <stdio.h>
 
