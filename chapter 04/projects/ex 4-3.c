@@ -1,4 +1,7 @@
-/* Extend the program in Programming Project 1 (chapter 4) to handle three-digit numbers  */
+/*************************************************************************************************** 
+Rewrite the program in Programming Project 2 so that it prints the reversal of a three-digit number
+without using arithmetic to split the number into digits.
+****************************************************************************************************/
 
 #include <stdio.h>
 
