@@ -1,5 +1,8 @@
-/* Rewrite the upc.c program of Section 4.1 so that the user enter 11 digits at one time,
- * instead of entering one digit, then five digits, and then another five digits   */
+/*****************************************************************************************
+European countries use a 13-digit code, known as European Article Number (EAN) instead of
+the 12-digit Universal Product Code (UPC) found in North America. Each EAN ends with a 
+check digit, just as a UPC does.
+******************************************************************************************/
 
 #include <stdio.h>
 
@@ -14,9 +17,8 @@ int main()
     first_sum = i2 + i4 + i6 + i8 + i10 + i12;
     second_sum = i1 + i3 + i5 + i7 + i9 + i11;
     total = 3 * first_sum + second_sum;
-    //total = 3 * (i2 + i4 + i6 + i8 + i10 + i12) + (i1 + i3 + i5 + i7 + i9 + i11);
+    //total = 3 * (i2 + i4 + i6 + i8 + i10 + i12) + (i1 + i3 + i5 + i7 + i9 + i11); //OTHER METHOD
     printf("Check digit: %d\n", 9 - ((total - 1) % 10));
-
 
     return 0;
 }
