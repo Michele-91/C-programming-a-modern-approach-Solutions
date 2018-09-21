@@ -28,9 +28,5 @@ int main()
         printf("Error: %d is an invalid number\n", number);
     }
 
-
-
-
-
     return 0;
 }
