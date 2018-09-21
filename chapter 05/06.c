@@ -1,5 +1,7 @@
-/* Write a program that asks the user to enter a wind speed (in knots), then displays the corresponding
- * description.*/
+/*****************************************************************************************
+Modifiy the upc.c program of section 4.1 so that it checks whether a UPC is valid. After
+the user enters a UPC, the program will display either VALID or NOT VALID
+*****************************************************************************************/
 
 #include <stdio.h>
 
