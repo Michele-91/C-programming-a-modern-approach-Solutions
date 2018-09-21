@@ -1,8 +1,10 @@
-/*Modify the broker.c program of Section 5.2 by making both of the following changes:
- *a) ask the user to enter the number of shares and the price per share, instead of the value of the trade.
- *b) add stataements that compute the commission charged by a rival broker ($33 plus 3cents per share for
- *   for fewer than 2000 shares; $33 plus 2cents per share for 2000 shares or more). Display the rival's
- *   commission as well as the commission charged by the original broker.*/
+/***********************************************************************************************************
+Modify the broker.c program of Section 5.2 by making both of the following changes:
+ a) ask the user to enter the number of shares and the price per share, instead of the value of the trade.
+b) add stataements that compute the commission charged by a rival broker ($33 plus 3cents per share for
+for fewer than 2000 shares; $33 plus 2cents per share for 2000 shares or more). Display the rival's 
+commission as well as the commission charged by the original broker.
+************************************************************************************************************/
 
 #include <stdio.h>
 #include <string.h>
