@@ -1,4 +1,6 @@
-/*Write a program that asks the user for a 24-hour time, then displays the time in 12-hour form */
+/**********************************************************************************************
+Write a program that asks the user for a 24-hour time, then displays the time in 12-hour form 
+***********************************************************************************************/
 
 #include <stdio.h>
 #include <string.h>
