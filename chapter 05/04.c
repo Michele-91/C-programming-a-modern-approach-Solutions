@@ -1,5 +1,7 @@
-/* Write a program that asks the user to enter a wind speed (in knots), then displays the corresponding
- * description.*/
+/*****************************************************************************************************
+Write a program that asks the user to enter a wind speed (in knots), then displays the corresponding
+description.
+******************************************************************************************************/
 
 #include <stdio.h>
 #include <string.h>
@@ -27,7 +29,7 @@ int main() {
         printf("Calm\n");
     }
 
-    /*SECONDO MODO
+    /*SECOND METHOD
     if (knots < 1) {
         printf("Calm\n");
     } else if (knots <= 3) {
