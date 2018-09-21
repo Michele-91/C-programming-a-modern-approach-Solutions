@@ -1,4 +1,6 @@
-/* Using the switch statement, write a program that converste a numerical grade into a letter grade: */
+/************************************************************************************************
+Using the switch statement, write a program that converts a numerical grade into a letter grade: 
+*************************************************************************************************/
 
 #include <stdio.h>
 
