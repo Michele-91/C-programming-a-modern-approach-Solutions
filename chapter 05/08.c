@@ -1,6 +1,8 @@
-/* Write a program that asks the user to enter a time (expressed in hours and minutes, using the
- * 24-hour clock). The program then displays the departure and arrival times for the flight whose
- departure times is closest to that entered by the user*/
+/* ********************************************************************************************
+Write a program that asks the user to enter a time (expressed in hours and minutes, using the
+24-hour clock). The program then displays the departure and arrival times for the flight whose
+ departure times is closest to that entered by the user
+ **********************************************************************************************/
 
 #include <stdio.h>
 
@@ -44,7 +46,7 @@ int main(void) {
     }
 
 
-    /* SECONDO MODO ***********************************************************
+    /* ALTERNATIVE METHOD ******************************************************
 
         if (closest_departure >= 0 && closest_departure <= dep1) {
         closest_departure = dep1;
