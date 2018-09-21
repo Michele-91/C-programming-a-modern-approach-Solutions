@@ -1,4 +1,6 @@
-/* Write a program that finds the largest and smallest of four integers entered by the user.*/
+/*****************************************************************************************
+Write a program that finds the largest and smallest of four integers entered by the user.
+******************************************************************************************/
 
 #include <stdio.h>
 
@@ -37,7 +39,7 @@ int main(void) {
         printf("Smallest %d\n", i4);
     }
 
-    /* SECONDO MODO
+    /* SECOND METHOD
 
     int n1, n2, n3, n4, largest, smallest;
 
