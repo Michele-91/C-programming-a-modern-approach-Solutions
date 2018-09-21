@@ -1,5 +1,7 @@
-/*Write a program that calculates how many digits a number contains.
- *You may assume that the number has no more than four digits. Hint: use if statements. */
+/*************************************************************************************
+Write a program that calculates how many digits a number contains.
+You may assume that the number has no more than four digits. Hint: use if statements. 
+**************************************************************************************/
 
 #include <stdio.h>
 #include <string.h>
