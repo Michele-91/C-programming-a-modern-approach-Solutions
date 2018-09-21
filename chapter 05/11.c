@@ -1,5 +1,7 @@
-/* Write a program that asks the user for a two-digit number,
- * then prints the English word for the number: */
+/**********************************************************
+Write a program that asks the user for a two-digit number,
+then prints the English word for the number:
+***********************************************************/
 
 #include <stdio.h>
 
@@ -33,7 +35,6 @@ int main(void) {
         case 3: printf("Three"); break; case 2: printf("Two"); break;
         case 1: printf("one"); break;
     }
-
     printf("\n");
 
     return 0;
