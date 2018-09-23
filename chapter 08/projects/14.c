@@ -13,52 +13,53 @@ beginning of the array is reached. Finally, put the terminating character.
 #include <stdio.h>
 #include <ctype.h>
 
+#define SIZE 50
+
 int main()
 {
 
-    char ch, sentence[100], terminating_char;
-    int i, j, num_words = 0;
+     char ch, terminating_char = 0;
+    char sentence[SIZE+1] = {0};
+    int i, j, last_space = SIZE + 1;
 
-    printf("Enter a sentence: ");
-    for(i = 0;(ch = toupper(getchar())) != '\n' && i < 100; i++)
+    printf("\nEnter a sentence: ");
+    for (i = 0; (ch = toupper(getchar())) != '\n'; i++)
     {
-        if(ch == ' ')
+        if (ch == '.' || ch == '?' || ch == '!')
         {
-            num_words++;
-        }
-        if(ch == '.' || ch == '?' || ch == '!')
-        {
+            last_space = i;
             terminating_char = ch;
             break;
         }
         sentence[i] = ch;
     }
 
-    printf("Reversal of sentence: ");
-    for(i = 100; i > 0; i--)
+    if (terminating_char == 0)
     {
-        while(sentence[i] == ' ') //skips extra spaces in the array initially and skips space between words in following iterations
-        ;
-        while(sentence[i] != ' ') //skips word when going from right to left
-        ;
-        if(sentence[i] == ' ') 
-        {
-            for(j = i+1; sentence[j] != ' '; j++)
-            {
-                printf("%c",sentence[j]); //prints characters in word
-            }
-            i++; //goes up one element so the two while in the outer loop can keep working properly
-            putchar(' '); //prints space between words
-            num_words--; //subtracts word from total number of words
-        }
-        if(num_words == 0)
-            break;
+        printf("Sentence needs a terminating character. (./?/!)\n\n");
+        return 0;
     }
-    putchar(terminating_char);
-    printf("\n\n");
+
+    printf("Reversal of sentence: ");
+    for (i = last_space; i > 0; i--)
+    {
+        if (sentence[i] == ' ')
+        {
+            for (j = i + 1; j != last_space; j++)
+            {
+                putchar(sentence[j]);
+            }
+            last_space = i;
+            putchar(sentence[i]);
+        }
+    }
+    while (sentence[i] != '\0' && sentence[i] != ' ')
+    {
+        putchar(sentence[i++]);
+    }
+    printf("%c\n\n", terminating_char);
 
     return 0;
-
 }
 
 
