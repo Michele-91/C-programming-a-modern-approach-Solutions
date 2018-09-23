@@ -1,6 +1,8 @@
-/* Programming Project 9 in Chapter 5 asked you to write a program that determines which of the two
- * dates comes earlier on the calendar. Generalize the program so that the user may enter any number
- * of dates. The user will enter 0/0/0 to indicate that no more dates will be entered */
+/***************************************************************************************************
+Programming Project 9 in Chapter 5 asked you to write a program that determines which of the two
+dates comes earlier on the calendar. Generalize the program so that the user may enter any number
+of dates. The user will enter 0/0/0 to indicate that no more dates will be entered.
+****************************************************************************************************/
 
 #include <stdio.h>
 
@@ -26,7 +28,6 @@ int main()
             m1 = m2;
             y1 = y2;
         }
-
 
     return 0;
 }
