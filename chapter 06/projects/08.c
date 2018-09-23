@@ -1,5 +1,7 @@
-/* Write a program that prints a one-month calendar. The user specifies the number of days in the month
- * and the day of the week on which month begins */
+/*****************************************************************************************************
+Write a program that prints a one-month calendar. The user specifies the number of days in the month
+and the day of the week on which month begins 
+******************************************************************************************************/
 
 #include <stdio.h>
 
@@ -24,7 +26,6 @@ int main()
     if ((start_day + i - 1) % 7 == 0)
       printf("\n");
   }
-
 
     return 0;
 }
