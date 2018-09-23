@@ -1,5 +1,7 @@
 /**************************************************************************************
-Write a program that reverses the words in a sentence.
+Write a program that reverses the words in a sentence:
+-- Enter a sentence: you can cage a swallow can't you? --
+-- Sentence reversal: you can't swallow a cage can you? --
 Hint: use a loop to read the characters one by one and store them in a one-dimensional
 char array. Have the loop stop at the period, question mark, or exclamation point
 (the "terminating character"), which is saved in a separate char variable. Then use a
