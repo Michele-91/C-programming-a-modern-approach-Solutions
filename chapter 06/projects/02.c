@@ -1,6 +1,7 @@
-/* Write a program that asks the user to enter two integers, then calculates and displays their greatest
- * common divisor(GCD):
- */
+/*****************************************************************************************************
+Write a program that asks the user to enter two integers, then calculates and displays their greatest
+common divisor(GCD):
+******************************************************************************************************/
 
 #include <stdio.h>
 
@@ -8,9 +9,21 @@
 int main()
 {
 
-/* MIA SOLUZIONE BRUTTA
+    // SOLUZIONE DEL LIBRO
+  int m, n, remainder;
 
+  printf("Enter two integers: ");
+  scanf("%d%d", &m, &n);
 
+  while (n != 0) {
+    remainder = m % n;
+    m = n;
+    n = remainder;
+  }
+
+  printf("Greatest common divisor: %d\n", m);
+    
+    /* ALTERNATIVE METHOD
     int a, b, r, mcd;
 
     printf("Enter two integers: ");
@@ -33,24 +46,6 @@ int main()
         }
     } while (a > 0);
 */
-
-    // SOLUZIONE DEL LIBRO
-  int m, n, remainder;
-
-  printf("Enter two integers: ");
-  scanf("%d%d", &m, &n);
-
-  while (n != 0) {
-    remainder = m % n;
-    m = n;
-    n = remainder;
-  }
-
-  printf("Greatest common divisor: %d\n", m);
-
-
-
-
 
      return 0;
 }
