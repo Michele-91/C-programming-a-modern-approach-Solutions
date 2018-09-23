@@ -34,7 +34,6 @@ int main()
     }
     printf(", %c.", initial);
 
-
     return 0;
 
 }
