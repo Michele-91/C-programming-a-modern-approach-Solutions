@@ -11,7 +11,6 @@ phone number is no more than 15 characters long.
 
 #define SIZE 15
 
-
 int main()
 {
 
@@ -60,8 +59,6 @@ int main()
         putchar(num[i]);
     }
     printf("\n");
-
-
 
   return 0;
 }
