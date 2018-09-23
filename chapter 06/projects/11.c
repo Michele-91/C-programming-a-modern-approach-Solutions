@@ -1,4 +1,6 @@
-/* Write a program that approximates e by computing the value of 1+1/1!+1/2!+1/3!+...+1/n| */
+/***************************************************************************************
+Write a program that approximates e by computing the value of 1+1/1!+1/2!+1/3!+...+1/n| 
+****************************************************************************************/
 
 #include <stdio.h>
 
@@ -17,7 +19,6 @@ int main()
     }
 
     printf("Approximation of e: %f\n", e);
-
 
     return 0;
 }
