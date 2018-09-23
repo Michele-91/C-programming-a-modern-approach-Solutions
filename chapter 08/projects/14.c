@@ -18,7 +18,7 @@ beginning of the array is reached. Finally, put the terminating character.
 int main()
 {
 
-     char ch, terminating_char = 0;
+    char ch, terminating_char = 0;
     char sentence[SIZE+1] = {0};
     int i, j, last_space = SIZE + 1;
 
