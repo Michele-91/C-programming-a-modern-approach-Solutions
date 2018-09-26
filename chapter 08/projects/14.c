@@ -18,12 +18,11 @@ beginning of the array is reached. Finally, put the terminating character.
 int main()
 {
 
-    char ch, terminating_char = 0;
-    char sentence[SIZE+1] = {0};
-    int i, j, last_space = SIZE + 1;
+    char ch, terminating_char = 0, sentence[SIZE], 
+    int i, j, last_space;
 
     printf("\nEnter a sentence: ");
-    for (i = 0; (ch = toupper(getchar())) != '\n'; i++)
+    for (i = 0; (ch = getchar()) != '\n'; i++)
     {
         if (ch == '.' || ch == '?' || ch == '!')
         {
@@ -40,22 +39,26 @@ int main()
         return 0;
     }
 
+    
     printf("Reversal of sentence: ");
-    for (i = last_space; i > 0; i--)
+    for (i = last_space; i > 0; i--)     //starts counting backwards from number value inside the array of the terminating character
     {
-        if (sentence[i] == ' ')
+        if (sentence[i] == ' ')             
         {
             for (j = i + 1; j != last_space; j++)
             {
                 putchar(sentence[j]);
             }
             last_space = i;
-            putchar(sentence[i]);
+            putchar(sentence[i]);           //prints empty space between words
         }
     }
-    while (sentence[i] != '\0' && sentence[i] != ' ')
+    
+    /*goes through array from first letter to first space to print the first word (conditional in line 46 doesn't execute
+    for the last word and therefore the previous loop won't print it)*/
+    for(i = 0; sentence[i] != '\0' && sentence[i] != ' '; i++)
     {
-        putchar(sentence[i++]);
+        putchar(sentence[i]);
     }
     printf("%c\n\n", terminating_char);
 
