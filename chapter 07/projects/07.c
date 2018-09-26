@@ -1,3 +1,8 @@
+/******************************************************************
+Modify Programming Project 6 from Chapter 3 so that the user may
+add, subtract, multiply, or divide two fractions (by entering
+either +, -, *, or / between the fractions).
+*******************************************************************/
 
 #include <stdio.h>
 
@@ -30,9 +35,9 @@ int main()
             break;
 
     }
-
     printf("The result is %d/%d\n", result_num, result_denom);
 
+    /*I added a reduction in lowest terms of the fraction, which wasn't included in the instructions for the exercise, just for fun*/
 
     m = result_num;
     n = result_denom;
@@ -45,14 +50,6 @@ int main()
     }
 
     printf("In lowest terms: %d/%d\n", result_num / m, result_denom / m);
-
-
-
-
-
-
-
-
 
     return 0;
 }
