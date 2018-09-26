@@ -1,12 +1,23 @@
 
+/******************************************************************
+Modify the square2.c program of Section 6.3 so that it pauses
+after every 24 squares and displays the following message:
+ 
+    Press Enter to continue...
+
+After displaying the message, the program should use getchar to
+read a character. getchar won't allow the program to continue
+until the user presses the Enter key.
+******************************************************************/
+
+
 #include <stdio.h>
 #include <math.h>
 
 int main()
 {
+    
     int i, n;
-    //char ch;
-
 
     printf("This program prints a table of squares.\n");
     printf("Enter number of entries in table: ");
