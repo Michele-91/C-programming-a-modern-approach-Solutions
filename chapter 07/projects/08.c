@@ -1,3 +1,13 @@
+/**********************************************************************
+Modify Programming Project 8 from Chapter 5 so that the user
+enters a time using the 12 hour clock. The input will have the
+form hours : minutes followed by either A, P, AM, or PM (either
+lower-case or upper-case). White space is allowed (but not
+required) between the numerical time and the AM/PM indicator.
+
+You may assume that the input has one of these forms, there is no
+need to test for errors.
+**********************************************************************/
 
 #include <stdio.h>
 #include <ctype.h>
@@ -34,12 +44,6 @@ int main() {
         printf("Closest departure time is 7:00 p.m., arriving at 9:20 p.m\n");
       else if (closest_departure >= dep7 && closest_departure <= dep8)
         printf("Closest departure time is 9:45 p.m., arriving at 11:58 a.m\n");
-
-
-
-
-
-
 
 
     return 0;
