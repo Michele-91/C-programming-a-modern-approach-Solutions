@@ -1,3 +1,6 @@
+ /***************************************************************************
+ Modify the sum2.c program of Section 7.1 to sum a series of double values.
+ ****************************************************************************/
 
 #include <stdio.h>
 #include <math.h>
@@ -16,8 +19,6 @@ int main()
         scanf("%lf", &n);
     }
     printf("The sum is: %.2f\n", sum);
-
-
 
     return 0;
 }
