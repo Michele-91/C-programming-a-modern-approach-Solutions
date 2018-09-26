@@ -1,4 +1,3 @@
-
 /******************************************************************
 Modify the square2.c program of Section 6.3 so that it pauses
 after every 24 squares and displays the following message:
