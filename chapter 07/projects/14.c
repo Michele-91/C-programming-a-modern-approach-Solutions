@@ -1,4 +1,4 @@
-/********************************************************************************* 
+/********************************************************************************
 Write a program that uses Newton's method to compute the square root of
 a positive floating-point number:
 
