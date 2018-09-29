@@ -15,16 +15,15 @@ upper-case letters remain upper-case.
 #include <stdio.h>
 #include <ctype.h>
 
-#define MAX_VALUE 80
+#define MAX 80
 
 int main()
 { 
-
     char ch, sentence[80] = {0};
     int i, length = 0, shift;
 
     printf("Enter message to be encrypted: ");
-    for (i = 0; (ch = getchar()) != '\n' && i < 80; i++) {
+    for (i = 0; (ch = getchar()) != '\n' && i < MAX; i++) {
         sentence[i] = ch;
         length++;
     }
@@ -33,14 +32,13 @@ int main()
     scanf("%d", &shift);
 
     printf("Encrypted message: ");
-    for (i = 0; i < length; i++) {
+    for (i = 0; i < length; i++) 
+    {
         if (sentence[i] >= 'A' && sentence[i] <= 'Z') {
             printf("%c", ((sentence[i] - 'A') + shift) % 26 + 'A');
-        }
-        else if (sentence[i] >= 'a' && sentence[i] <= 'z') {
+        } else if (sentence[i] >= 'a' && sentence[i] <= 'z') {
             printf("%c", ((sentence[i] - 'a') + shift) % 26 + 'a');
-        }
-        else {
+        } else {
             printf("%c", sentence[i]);
         }
     }
