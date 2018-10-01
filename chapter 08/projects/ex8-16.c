@@ -16,26 +16,23 @@ array are zero. If so, the words are anagrams. Hint: You may wish to use functio
 
 int main()
 { 
-
     char ch;
     int word[26] = {0};
     int i, length = 0, shift;
     bool anagram = true;
 
     printf("\nEnter first word: ");
-    for (i = 0; (ch = getchar()) != '\n' && i < 26; i++) {
+    for (i = 0; (ch = getchar()) != '\n' && i < 26; i++) 
+    {
         if(isalpha(ch))
-        {
             word[toupper(ch) - 'A']++;
-        }
     }
 
     printf("Enter first word: ");
-    for (i = 0; (ch = getchar()) != '\n' && i < 26; i++) {
+    for (i = 0; (ch = getchar()) != '\n' && i < 26; i++) 
+    {
         if(isalpha(ch))
-        {
             word[toupper(ch) - 'A']--;
-        }
     }
 
     for(i = 0; i < 26; i++)
@@ -51,7 +48,6 @@ int main()
         printf("The words are anagrams!\n");
     else
         printf("The words are not anagrams!\n");
-
 
     printf("\n\n");
     return 0;
