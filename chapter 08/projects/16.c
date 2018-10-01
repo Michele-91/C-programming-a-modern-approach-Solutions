@@ -17,8 +17,7 @@ array are zero. If so, the words are anagrams. Hint: You may wish to use functio
 int main()
 { 
     char ch;
-    int word[26] = {0};
-    int i, length = 0, shift;
+    int word[26] = {0}, i;
     bool anagram = true;
 
     printf("\nEnter first word: ");
