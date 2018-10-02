@@ -27,7 +27,7 @@ int main()
             word[toupper(ch) - 'A']++;
     }
 
-    printf("Enter first word: ");
+    printf("Enter second word: ");
     for (i = 0; (ch = getchar()) != '\n' && i < 26; i++) 
     {
         if(isalpha(ch))
