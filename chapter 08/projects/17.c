@@ -17,8 +17,7 @@ If not, declare the array to have 99 rows and 99 columns.
 #include <ctype.h>
 
 int main()
-{ 
-
+{
     int row, column, i, size, row_move, column_move;
     int square[99][99];
 
