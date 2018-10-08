@@ -11,8 +11,7 @@ the value returned by the function.
 int result(int x);
 
 int main(void)
-{ 
-
+{
     int x;
     printf("Given the polynomial:\n3x^5 + 2x^4 - 5x^3 - x^2 + 7x - 6\n");
     printf("Enter a value for x to solve the equation: ");
