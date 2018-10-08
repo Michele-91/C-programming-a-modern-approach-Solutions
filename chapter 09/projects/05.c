@@ -23,7 +23,6 @@ void print_magic_square(int n, char magic_square[99][99]);
 
 int main(void)
 { 
-
     int size;
     char square[99][99];
 
