@@ -9,9 +9,7 @@ second largest elements, storing them in the variables pointed to by largest and
 second_largest, respectively.
 ************************************************************************************/
 
-
 #include <stdio.h>
-#include <stdbool.h>
 
 #define N 5
 
