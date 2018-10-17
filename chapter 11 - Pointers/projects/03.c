@@ -2,8 +2,8 @@
 Modify Programming Project 3 from Chapter 6 so that it includes the 
 following function:
 void reduce(int numerator, int denominator,
-           int *reduced_numerator,
-           int *reduced_denominator);
+            int *reduced_numerator,
+            int *reduced_denominator);
 
 numerator and denominator are the numerator of a fraction.  
 reduced_numerator and reduced_denominator are pointers to variables 
