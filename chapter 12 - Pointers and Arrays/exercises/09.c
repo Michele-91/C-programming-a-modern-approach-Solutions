@@ -29,7 +29,8 @@ int main(void)
         scanf(" %lf", p);
 
     printf("Product of the two arrays: %lf\n", inner_product(a, b, N));
-
+    
+    return 0;
 }
 
 double inner_product(const double *a, const double *b, int n)
