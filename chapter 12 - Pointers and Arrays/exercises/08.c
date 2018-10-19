@@ -24,7 +24,8 @@ int main(void)
     int a[N] = {4, 8, 2, 4, 9};
 
     store_zeros(a, N);
-
+    
+    return 0;
 }
 
 void store_zeros(int a[], int n)
