@@ -27,7 +27,8 @@ int main(void)
         printf("Key found; access granted\n");
     else
         printf("Key not found; access denied\n");
-
+    
+    return 0;
 }
 
 bool search(const int a[], int n, int key)
