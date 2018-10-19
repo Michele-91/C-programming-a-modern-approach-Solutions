@@ -25,7 +25,7 @@ int find_largest(int a[], int n)
 {
     int *p, max = 0;
 
-    for(p = a; p < a + N; p++)
+    for(p = a; p < a + n; p++)
     {
         if(*p > max)
             max = *p;
