@@ -9,7 +9,6 @@ subscripting--to visit array elements.
 ***************************************************************************/
 
 #include <stdio.h>
-#include <stdbool.h>
 
 #define N 5
 
