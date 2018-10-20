@@ -46,5 +46,6 @@ int main(void)
                 num_zeros = 0.0;
             }
     }
-
+   
+    return 0;
 }
