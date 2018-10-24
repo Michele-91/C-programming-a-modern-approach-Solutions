@@ -21,14 +21,14 @@ int main(void)
 {
     char message[LEN], ch, *p;
     printf("\nEnter a message: ");
-    for(p = message; p < message + LEN; p++)
+    for(p = &message[0]; p < &message[0] + LEN; p++)
     {
         if((ch = getchar()) == '\n') break;
         *p = ch;
     }
 
     printf("Reversal is: ");
-    for(p = message + LEN - 1; p >= message; p--)
+    for(p = &message[0] + LEN - 1; p >= &message[0]; p--)
         putchar(*p);
     printf("\n");
 
