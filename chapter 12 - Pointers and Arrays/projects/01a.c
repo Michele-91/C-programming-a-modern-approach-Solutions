@@ -17,8 +17,6 @@ read is '\n'.
 
 #define LEN 30
 
-
-
 int main(void)
 {
     char message[LEN], ch;
@@ -37,10 +35,3 @@ int main(void)
     
     return 0;
 }
-
-
-/*int evaluate_position(char *board, int n)
-{
-
-    return 0;
-}*/
