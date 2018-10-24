@@ -62,7 +62,7 @@ void reverse_sentence(char a[], int n)
         {
 
             /* Special case when we are at the start of the sentence,
-             * normally we iterate from i+1...word length to skip the white space, but
+             * normally we iterate from a+1...word length to skip the white space, but
              * the start of the sentence will have no preceding white space */
             if (p == a) 
             { 
