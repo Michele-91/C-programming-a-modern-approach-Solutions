@@ -1,5 +1,5 @@
 /***************************************************************************
-/* Rewrite the following function to use pointer arithmetic instead of 
+Rewrite the following function to use pointer arithmetic instead of 
 array subscripting. (In other words, eliminate variables i and k and all 
 uses of the [] operator.) Use a single loop instead of nested loops.
 
