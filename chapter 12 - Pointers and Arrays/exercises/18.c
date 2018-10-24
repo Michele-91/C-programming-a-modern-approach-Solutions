@@ -62,7 +62,4 @@ int evaluate_position(char *board, int n)
         }
     }
     return black_score - white_score;
-
-
-    return 0;
 }
