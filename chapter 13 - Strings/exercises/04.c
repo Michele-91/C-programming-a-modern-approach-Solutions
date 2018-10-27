@@ -10,30 +10,6 @@ Modify the read_line function in each of the following ways:
 (d) Have it leave behind characters that it doesn't have room to store.
 ***********************************************************************************/
 
-
-/* rest of hypothetical program
-
-#include <stdio.h>
-#include <ctype.h>
-#include <string.h>
-
-#define LEN 5
-
-int read_line(char str[], int n);
-
-int main(void)
-{
-    char str[LEN+1];
-    int i;
-
-    printf("\nEnter sentence: ");
-    for(i = 0; i < LEN; i++)
-        scanf("%c", &str[i]);
-
-    read_line(str, LEN);
-}
-*/
-
 // (a)
 int read_line(char str[], int n)
 {
