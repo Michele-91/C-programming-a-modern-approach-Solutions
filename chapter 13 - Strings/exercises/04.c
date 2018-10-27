@@ -11,6 +11,8 @@ Modify the read_line function in each of the following ways:
 ***********************************************************************************/
 
 
+/* rest of hypothetical program
+
 #include <stdio.h>
 #include <ctype.h>
 #include <string.h>
@@ -30,7 +32,9 @@ int main(void)
 
     read_line(str, LEN);
 }
+*/
 
+// (a)
 int read_line(char str[], int n)
 {
     int ch, i = 0;
@@ -42,6 +46,51 @@ int read_line(char str[], int n)
         else if(i < n)
             str[i++] = ch;
     }
-    str[i] = '\0';                          /*terminates string */
-    return i;                               /*number of characters stored */
+    str[i] = '\0';                         
+    return i;                              
+}
+
+(b)
+int read_line(char str[], int n)
+{
+    int ch, i = 0;
+    
+    while (!isspace(ch = getchar()))
+    {
+        else if(i < n)
+            str[i++] = ch;
+    }
+    str[i] = '\0';                          
+    return i;                               
+}
+
+// (c)
+int read_line(char str[], int n)
+{
+    int ch, i = 0;
+    
+    do
+    {   
+        ch = getchar();
+        else if(i < n)
+            str[i++] = ch;
+    } while(ch != '\n');
+    str[i] = '\0';                         
+    return i;                               
+}
+
+// (d)
+int read_line(char str[], int n)
+{
+    int ch, i = 0;
+    
+    for(i = 0; i < n; i++)
+    {
+        ch = getchar();
+        if(ch == '\n')
+            break;
+        str[i] = ch;
+    }
+    str[i] = '\0';                          
+    return i;                               
 }
