@@ -50,7 +50,7 @@ int read_line(char str[], int n)
     return i;                              
 }
 
-(b)
+//(b)
 int read_line(char str[], int n)
 {
     int ch, i = 0;
