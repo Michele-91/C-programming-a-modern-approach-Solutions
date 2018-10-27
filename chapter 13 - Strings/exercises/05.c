@@ -41,6 +41,8 @@ int main(void)
     printf("\nCapitalized String: ");
     print_string(str);
     printf("\n\n");
+    
+    return 0;
 }
 
 void capitalize_a(char str[])
