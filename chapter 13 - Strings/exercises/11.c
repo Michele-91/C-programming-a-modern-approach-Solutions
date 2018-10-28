@@ -25,5 +25,5 @@ int strcmp(char *s, char *t)
     while(*s++ == *t++)
         if(!*s)
             return 0;
-    return *(--s) - *(--t);
+    return *s - *t;
 }
