@@ -8,7 +8,6 @@ Make the function as short as possible without sacrificing clarity.
 #include <stdio.h>
 #include <ctype.h>
 #include <string.h>
-#include <stdlib.h>
 
 void censor(char s[]);
 void print_string(const char *s);
