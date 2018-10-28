@@ -14,9 +14,6 @@ int strcmp(char *s, char *t)
         if(s[i] == '\0')
             return 0;
     return s[i] - t[i];
-
-
-
 }
 
 //pointer arithmetic
