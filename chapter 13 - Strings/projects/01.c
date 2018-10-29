@@ -38,7 +38,8 @@ int main(void)
     find_largest_and_smallest(smallest, largest);
 
     printf("\nSmallest word: %s\nLargest word: %s\n", smallest, largest);
-
+    
+    return 0;
 }
 
 void find_largest_and_smallest(char smallest[], char largest[])
