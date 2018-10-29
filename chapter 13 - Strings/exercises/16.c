@@ -4,7 +4,6 @@ of Section 13.4. In particular, replace the for statement by a while loop.
 ***********************************************************************************/
 
 #include <stdio.h>
-#include <string.h>
 
 int count_spaces(const char *s);
 
