@@ -28,6 +28,7 @@ int main()
         rank = rand() % NUM_RANKS; /* picks a random rank */
         if(!in_hand[suit][rank])
         {
+            in_hand[suit][rank] = true;
             num_cards--;
             printf(" %c%c", rank_code[rank], suit_code[suit]);
         }
