@@ -11,7 +11,6 @@ Hint: Use the atoi function to convert each command-line argument from string
       form to integer form.
 ***********************************************************************************/
 
-
 #include <stdio.h>
 #include <stdlib.h>
 
