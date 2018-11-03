@@ -38,7 +38,7 @@ int string_equal(const char *s, const char *t)
 {
     int i;
 
-    for (i = 0; toupper(s[i]) == toupper(t[i]); i++)
+    for (i = 0; tolower(s[i]) == tolower(t[i]); i++)
         if (s[i] == '\0')
             return 1;
 
