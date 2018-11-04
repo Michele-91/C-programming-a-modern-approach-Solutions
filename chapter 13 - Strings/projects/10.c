@@ -11,7 +11,6 @@ The original string may contain extra spaces before the first name, between
 the first and last names, and after the last name.
 ***********************************************************************************/
 
-
 #include <stdio.h>
 #include <ctype.h>
 
