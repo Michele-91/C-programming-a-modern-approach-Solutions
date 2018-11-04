@@ -20,7 +20,7 @@ int main()
     char ch[LEN + 1];
 
     printf("Enter a sentence: ");
-    gets(ch);
+    fgets(ch, sizeof(ch), stdin);
 
     printf("Your sentence contains %d vowels\n", computer_vowel_count(ch));
     
