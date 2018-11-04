@@ -8,7 +8,6 @@ The function returns the average length of the words in the string pointed to
 by sentence.
 ***********************************************************************************/
 
-
 #include <stdio.h>
 #include <ctype.h>
 
@@ -30,21 +29,20 @@ int main()
 
 double compute_average_word_length(const char *sentence)
 {
-    //const char *p = sentence;
     float average, characters, words;
     average = 0.0f;
     characters = 0.0f;
     words = 0.0f;
 
-    while(*sentence)
+    while (*sentence)
     {
-        while(*sentence && !isspace(*sentence))
+        while (*sentence && !isspace(*sentence))
         {
             characters++;
             sentence++;
         }
         words++;
-        while(*sentence && isspace(*sentence))
+        while (*sentence && isspace(*sentence))
             sentence++;
     }
 
