@@ -8,7 +8,6 @@ The function returns the number of vowels in the string pointed to
 by the sentence parameter
 ***********************************************************************************/
 
-
 #include <stdio.h>
 #include <ctype.h>
 
@@ -18,7 +17,6 @@ int computer_vowel_count(const char *sentence);
 
 int main()
 {
-
     char ch[LEN + 1];
 
     printf("Enter a sentence: ");
@@ -45,10 +43,3 @@ int computer_vowel_count(const char *sentence)
 
     return vowels;
 }
-
-
-
-
-
-
-
