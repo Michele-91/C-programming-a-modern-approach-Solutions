@@ -18,7 +18,7 @@ beginning of the array is reached. Finally, put the terminating character.
 int main()
 {
 
-    char ch, terminating_char = 0, sentence[SIZE], 
+    char ch, terminating_char = 0, sentence[SIZE]; 
     int i, j, last_space;
 
     printf("\nEnter a sentence: ");
