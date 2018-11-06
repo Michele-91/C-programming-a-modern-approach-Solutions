@@ -9,7 +9,6 @@ be encrypted; shift represents the amount by which each letter in the message
 is to be shifted.
 ***********************************************************************************/
 
-
 #include <stdio.h>
 
 #define MAX_VALUE 80
