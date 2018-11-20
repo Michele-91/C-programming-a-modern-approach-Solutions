@@ -1,23 +1,43 @@
-Lines brought in by stdio.h
-blank line
-blank line
-blank line
+/********************************************************************************
+(a) Show what the following program will look like after preprocessing. You
+    may ignore any lines added to the program as a result of including the
+    <stdio.h> header.
+ *******************************************************************************/
+
+
+#include <stdio.h>
+
+#define N 100
+
 void f(void);
-blank line
+
 int main(void)
 {
     f();
-blank line
-blank line
-blank line
+#ifdef N
+#undef N
+#endif
     return 0;
 }
 
 void f(void)
 {
-    blank line
-        printf("N is %d\n, 100)
-    blank line
-        printf("N is undefined\n");
-    blank line
+#if define(N)
+    printf("N is %d\n", N);
+#else
+    printf("N is undefined\n");
+#endif
+}
+
+//After preprocessing
+
+int main(void)
+{
+    f();
+    return 0;
+}
+
+void f(void)
+{
+    printf("N is undefined\n");
 }
