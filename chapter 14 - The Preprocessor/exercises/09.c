@@ -23,8 +23,8 @@ Write the following parameterized macros.
                        -(5 * ((x) * (x) * (x)))                     \
                        -((x) * (x)) + (7 * (x)) - 6 )
 
-int main(void) {
-
+int main(void) 
+{
     int x, y, z, n;
     printf("Enter x, y, z: ");
     scanf("%d %d %d", &x, &y, &z);
