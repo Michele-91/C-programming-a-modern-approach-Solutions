@@ -15,7 +15,6 @@ string and the items to be displayed:
 
 #define ERROR(str, arg) (fprintf((stderr), (str), (arg)))
 
-
 int main(void) {
 
     int index = 22;
