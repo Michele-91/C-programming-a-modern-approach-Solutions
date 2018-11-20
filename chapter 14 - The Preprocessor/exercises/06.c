@@ -18,7 +18,8 @@ with two arguments.
 #define DISP(f,x) printf("%s(%g) = %g\n", (#f), (x), (f(x)))
 #define DISP2(f,x,y) printf("%s(%g, %g) = %g\n", (#f), (x), (y), f((x),(y)))
 
-int main(void) {
+int main(void) 
+{
 
     DISP(sqrt, 16.0);
     DISP2(fmod, 24.0, 7.0);
