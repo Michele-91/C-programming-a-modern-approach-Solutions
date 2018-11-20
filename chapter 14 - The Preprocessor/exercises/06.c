@@ -12,8 +12,6 @@ Write a macro DISP2(f,x,y) that's similar to DISP but works for functions
 with two arguments.
 *******************************************************************************/
 
-
-
 #include <stdio.h>
 #include <math.h>
 
